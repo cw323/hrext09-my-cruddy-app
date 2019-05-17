@@ -50,3 +50,28 @@ Reminders: {vet appointment, birthdays, friends' birthdays, national dog related
 
 //Microchip ID (hidden since it shows owner's information): if animal is ever found, there's a form you can input the ID and it will alert the owner of their found pet and release contact info to the founder if you want to do so
 
+//can message other users for advice
+
+
+
+
+
+
+Key: Animal Name
+Value: {Bonnie: {}}
+
+bootstrap: log in page, view page source, copy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
