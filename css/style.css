@@ -1,4 +1,4 @@
-/*
-  input boxes
-  buttons
-*/
+.basic-info {
+	display: inline-block;
+	align-content: left;
+}

@@ -2,90 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Bonnie's World</title>
+  <title>My To-do List</title>
   <script
           src="https://code.jquery.com/jquery-3.3.1.js"
           integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
           crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
- <!--  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
 </head>
 <body>
   <form>
-<!--   basic info
- -->    
+
 
  <div class="basic-info">
+    <h1>My To-do List</h1>
 
     <p>
-      <label for="name">Name:</label>
-      <input id="keyInput" type="text" placeholder="Bonnie"></input>
+      <input id="valueInput" type="create a task" size = 50 placeholder="bring passport"></input>
+      <button id="createButton" class="btn" type='submit'>Create</button>
+      <button id="clearButton" class="btn" type='button'>Clear All</button>
     </p>
+</div>
 
-    <p>
-      <label for="animalType">Animal Type:</label>
-      <select>
-        <option value="default" selected></option>
-        <option value="dog">Dog</option>
-        <option value="cat">Cat</option>
-      </select>
-    </p>
-
-    <p>
-      <label for="breed">Breed:</label>
-      <select>
-          <div class="dog-breed">
-            <option value="default" selected></option>
-            <option value="dogBreed">Maltipoo</option>
-          </div>
-
-
-
-          <div class="cat-breed">
-            <option value="catBreed">Maltese</option>
-
-          </div>
-      </select>
-    </p> <!-- only first name will show // Bonnie-->
-
-
-    <p>
-      <label for="birthday">Birthday:</label>
-      <input type="date" id="birthday" name="trip-start" value="2016-05-06" min="1990-01-01" max="2018-12-31">
-    </p>
-
-    <p>
-      <label for="microchipID">Microchip ID:</label>
-      <input id="valueInput" type="text" placeholder="value"></input>
-    </p> <!-- only first name will show // Bonnie-->
+<div>
+  <ul>
+  </ul>
 </div>
     
 
+</form>
 
-<!-- Vitals and stats
- -->
-
-  <label for="personality">Personality:</label>
-    <input id="valueInput" type="text" placeholder="value"></input> <!-- only first name will show // Bonnie-->
-
-    <label for="Name">Name:</label>
-    <input id="valueInput" type="text" placeholder="value"></input>
-
-
-
-<!-- //Players: pet/owner
-//Values: Animal type, breed, name, age (birthday), personality, health, weight, color, microchip ID (only visable to people who go to find page to enter the information for lost animals)
-//Other favs: snack, park, things to do, etc
-//Diet: how to feed, water, snacks
-//Vet information -->
-
-
-
-
-
-    <button id="createButton" class="btn" type='submit'>Create</button>
-    <button id="updateButton" class="btn" type='submit'>Update</button>
-  </form>
   <script src='app/app.js'></script>
 </body>
 </html>
+
+
+
+
+<!--         My to-do list: //create title
+[  "input todo item here"  ]    [enterbtn] //add an input box with placeholder of something you need to do //make the enter button clickable so that it adds to the list
+[x] input1 (can edit, check, or delete) //the input will be entered here where you can check the list when finished, edit, or delete //when checked, I want it to have strikethrough the text
+[x] input2 (can edit, check, or delete) -->
+
+
+
+
+
+
+
+
